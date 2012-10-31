@@ -1,0 +1,43 @@
+{
+  "name": "grunt-dokit",
+  "description": "api docs generator",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kates/grunt-dokit",
+  "author": {
+    "name": "kates",
+    "email": "katesgasis@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kates/grunt-dokit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kates/grunt-dokit/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kates/grunt-dokit/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-dokit",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.15",
+    "docit": "https://github.com/kates/docit/tarball/master",
+    "rimraf": "*",
+    "github-flavored-markdown": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
